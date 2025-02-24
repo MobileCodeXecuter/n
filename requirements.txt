@@ -1,3 +1,4 @@
 transformers==4.9.0
-torch==2.5.1
+torch==1.9.0
 huggingface-hub==0.0.12
+tokenizers==0.10.3
