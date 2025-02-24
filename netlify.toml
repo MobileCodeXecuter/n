@@ -1,0 +1,7 @@
+[build]
+  command = "pip install --upgrade pip && curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && pip install -r requirements.txt && python app.py"
+  publish = "public"
+  branch = "main"  # Specify your branch name here
+
+[context.production.environment]
+  HUGGINGFACE_API_KEY = "your_api_key"
